@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/ed_zeng"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="输入增" />
+
+            <Button
+                android:id="@+id/btn_zeng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="增" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/ed_delete"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="输入删" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:text="删" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/ed_update"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="输入改" />
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="改" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/ed_cha"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="输入查" />
+
+            <Button
+                android:id="@+id/btn_cha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
